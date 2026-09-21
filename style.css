@@ -269,7 +269,7 @@ body {
   position: fixed;
   left: 50%; top: 50%;
   transform: translate(-50%, -50%) scale(0.85);
-  max-width: min(85vw, 380px);
+  max-width: min(90vw, 480px);
   padding: 26px 22px;
   border-radius: 18px;
   background: rgba(36, 26, 13, 0.9);
@@ -288,7 +288,7 @@ body {
   font-family: 'Fraunces', serif;
   font-weight: 700;
   color: #FBF3DF;
-  font-size: 3.4vmin;
+  font-size: 2.6vmin;
   line-height: 1.5;
   white-space: pre-line;
 }
@@ -329,7 +329,7 @@ body {
   right: 14px;
   font-family: 'Fraunces', serif;
   font-style: italic;
-  font-size: 1.6vmin;
+  font-size: 30px;
   color: rgb(255, 255, 255);
   letter-spacing: 1px;
   z-index: 50;
