@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flor amarilla para ti 🌼</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="main-content">
+  <div id="start-btn-container">
+    <button id="start-btn"></button>
+  </div>
+
+  <!--
+    🎵 MÚSICA OPCIONAL:
+    Pon el nombre exacto de tu archivo de audio, junto a este index.html.
+    Si lo dejas vacío (sin src=""), la tarjeta funciona igual, solo sin música.
+  -->
+  <audio id="bg-music" src="Turning-Page.mp3" preload="none"></audio>
+
+  <canvas id="galaxy-canvas" style="display:none;opacity:0;"></canvas>
+
+  <div class="wrapper" style="display:none;">
+    <div class="flower"></div>
+    <div class="stem">
+      <div class="leaf leaf-left"></div>
+      <div class="leaf leaf-right"></div>
+    </div>
+  </div>
+
+  <!-- Botón secreto: invisible, se activa recién al cerrar la nota -->
+  <button id="secret-center" aria-label="Sorpresa secreta"></button>
+
+  <div id="scratch-wrap" style="display:none;">
+    <button id="scratch-close">✕</button>
+    <div id="scratch-text"></div>
+    <canvas id="scratch-canvas"></canvas>
+  </div>
+
+  <div id="secret-msg-wrap">
+    <div id="secret-msg-text"></div>
+    <button id="secret-msg-close">Cerrar</button>
+  </div>
+  <div id="confetti-container"></div>
+</div>
+<div id="signature">EMC</div>
+<script src="main.js"></script>
+
+</body>
+</html>
