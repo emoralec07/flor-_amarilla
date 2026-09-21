@@ -114,9 +114,11 @@ Espero que tengas un bonito día y que nunca te falten motivos para sonreír. �
   //  mensaje secreto del centro de la flor
   var secretMessage = `Encontraste el mensaje secreto 🌟💛💛🌻🌻
   Este es un mensaje extra solo para ti.
+
   Quizás esta flor amarilla sea solo un pequeño detalle, pero detrás de ella hay algo 
   que no se puede envolver ni regalar de ninguna otra forma: 
   las ganas de verte sonreír. 💛
+
   Y si te preguntas por qué tú... bueno, digamos que hay personas que, sin darse cuenta,
   se vuelven un poquito más especiales de lo que uno tenía pensado. 🌻✨`;
 
